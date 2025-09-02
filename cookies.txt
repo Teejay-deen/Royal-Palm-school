@@ -1,0 +1,9 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+royalpalmcollege.com	TRUE	/	FALSE	1999999999	nfd-enable-cf-opt	63a6825d27cab0f204d3b602
+royalpalmcollege.com	TRUE	/	FALSE	1999999999	pmpro_visit	1
+royalpalmcollege.com	TRUE	/	FALSE	1999999999	lp_session_guest	g-68b6fa7f8fe1c
+.vimeo.com	TRUE	/	FALSE	1999999999	__cf_bm	Ful8.J7LmIifvg96EKlNYDtj.cVwm04.i_kCqIT85S4-1756822447-1.0.1.1-20Y4RyFfZWWezmdodWkKvUFMLy8hGsVSyAWjLvDtJgzx9o8ouyi7iDD_SoLxtbQg
+.vimeo.com	TRUE	/	FALSE	1999999999	_cfuvid	DS_AqNl8YF07Z0Kql0eiB4l1gl3fzz8L6Yc1CsWaGjI-1756822447433-0.0.1.1-604800000
+player.vimeo.com	TRUE	/	FALSE	1999999999	SameSite	None
+
