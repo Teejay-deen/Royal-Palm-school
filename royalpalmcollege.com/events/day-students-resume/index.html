@@ -215,7 +215,7 @@
             color: #ffffffa6
         }
         
-        :root :where(.wp-block-image figcaption) {
+         :root :where(.wp-block-image figcaption) {
             color: #555;
             font-size: 13px;
             text-align: center
@@ -286,7 +286,7 @@
             padding: .375em .625em
         }
         
-        :where(.wp-block-group.has-background) {
+         :where(.wp-block-group.has-background) {
             padding: 1.25em 2.375em
         }
         
@@ -351,7 +351,7 @@
             margin: 0 0 1em
         }
         
-        :root :where(.wp-block-template-part.has-background) {
+         :root :where(.wp-block-template-part.has-background) {
             margin-bottom: 0;
             margin-top: 0;
             padding: 1.25em 2.375em
@@ -478,11 +478,11 @@
             --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
         }
         
-        :where(.is-layout-flex) {
+         :where(.is-layout-flex) {
             gap: 0.5em;
         }
         
-        :where(.is-layout-grid) {
+         :where(.is-layout-grid) {
             gap: 0.5em;
         }
         
@@ -507,19 +507,19 @@
             margin: 0;
         }
         
-        :where(.wp-block-columns.is-layout-flex) {
+         :where(.wp-block-columns.is-layout-flex) {
             gap: 2em;
         }
         
-        :where(.wp-block-columns.is-layout-grid) {
+         :where(.wp-block-columns.is-layout-grid) {
             gap: 2em;
         }
         
-        :where(.wp-block-post-template.is-layout-flex) {
+         :where(.wp-block-post-template.is-layout-flex) {
             gap: 1.25em;
         }
         
-        :where(.wp-block-post-template.is-layout-grid) {
+         :where(.wp-block-post-template.is-layout-grid) {
             gap: 1.25em;
         }
         
@@ -731,23 +731,23 @@
             font-size: var(--wp--preset--font-size--x-large) !important;
         }
         
-        :where(.wp-block-post-template.is-layout-flex) {
+         :where(.wp-block-post-template.is-layout-flex) {
             gap: 1.25em;
         }
         
-        :where(.wp-block-post-template.is-layout-grid) {
+         :where(.wp-block-post-template.is-layout-grid) {
             gap: 1.25em;
         }
         
-        :where(.wp-block-columns.is-layout-flex) {
+         :where(.wp-block-columns.is-layout-flex) {
             gap: 2em;
         }
         
-        :where(.wp-block-columns.is-layout-grid) {
+         :where(.wp-block-columns.is-layout-grid) {
             gap: 2em;
         }
         
-        :root :where(.wp-block-pullquote) {
+         :root :where(.wp-block-pullquote) {
             font-size: 1.5em;
             line-height: 1.6;
         }
@@ -1108,7 +1108,7 @@
             padding: 0!important
         }
         
-        :root {
+         :root {
             --wndb-mask-color: rgba(0, 0, 0, .15);
             --wndb-mask-position: 50% 50% at 50% 20%;
             --wndb-mask-opacity: 0.35
@@ -1220,26 +1220,26 @@
             --wndb-mask-opacity: 0.8
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--max-w--prose: min(65ch, 1100px)
         }
         
         .nfd-max-w-prose:not(.nfd-max-w-full),
-        :where(.nfd-text-balance:not(.nfd-max-w-full)) {
+         :where(.nfd-text-balance:not(.nfd-max-w-full)) {
             max-width: var(--wndb--max-w--prose)!important
         }
         
         .nfd-max-w-prose:not(.nfd-max-w-full).has-text-align-center,
-        :where(.nfd-text-balance:not(.nfd-max-w-full)).has-text-align-center {
+         :where(.nfd-text-balance:not(.nfd-max-w-full)).has-text-align-center {
             margin-inline: auto!important
         }
         
         .nfd-max-w-prose:not(.nfd-max-w-full).has-text-align-right,
-        :where(.nfd-text-balance:not(.nfd-max-w-full)).has-text-align-right {
+         :where(.nfd-text-balance:not(.nfd-max-w-full)).has-text-align-right {
             margin-inline-start: auto!important
         }
         
-        :where(.nfd-text-balance) {
+         :where(.nfd-text-balance) {
             text-wrap: balance!important
         }
         
@@ -1273,7 +1273,7 @@
             margin-block: .25em
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--text-scale-factor: 1;
             --wndb--text--xs: 0.75rem;
             --wndb--text--sm: 0.875rem;
@@ -1342,19 +1342,19 @@
             font-weight: 500!important
         }
         
-        :where(.nfd-text-huge:not([class*=font-size]):not([style*=font-size])) {
+         :where(.nfd-text-huge:not([class*=font-size]):not([style*=font-size])) {
             font-size: calc(var(--wndb--text--huge)*var(--wndb--text-scale-factor))!important;
             max-width: var(--wndb--max-w--prose)!important;
             text-wrap: balance!important
         }
         
-        :where(.nfd-text-giga:not([class*=font-size]):not([style*=font-size])).has-text-align-center,
-        :where(.nfd-text-huge:not([class*=font-size]):not([style*=font-size])).has-text-align-center {
+         :where(.nfd-text-giga:not([class*=font-size]):not([style*=font-size])).has-text-align-center,
+         :where(.nfd-text-huge:not([class*=font-size]):not([style*=font-size])).has-text-align-center {
             margin-inline: auto!important
         }
         
-        :where(.nfd-text-giga:not([class*=font-size]):not([style*=font-size])).has-text-align-right,
-        :where(.nfd-text-huge:not([class*=font-size]):not([style*=font-size])).has-text-align-right {
+         :where(.nfd-text-giga:not([class*=font-size]):not([style*=font-size])).has-text-align-right,
+         :where(.nfd-text-huge:not([class*=font-size]):not([style*=font-size])).has-text-align-right {
             margin-inline-start: auto!important
         }
         
@@ -1370,7 +1370,7 @@
             font-weight: 500!important
         }
         
-        :where(.nfd-text-giga:not([class*=font-size]):not([style*=font-size])) {
+         :where(.nfd-text-giga:not([class*=font-size]):not([style*=font-size])) {
             font-size: calc(var(--wndb--text-giga)*var(--wndb--text-scale-factor))!important;
             max-width: var(--wndb--max-w--prose)!important;
             text-wrap: balance!important
@@ -1388,7 +1388,7 @@
             font-weight: 500!important
         }
         
-        :root {
+         :root {
             --nfd-wb-anim-transition-duration: 1400ms;
             --nfd-wb-anim-transition-delay: 50ms;
             --nfd-wb-anim-transition-easing-function: cubic-bezier(0.4, 1, 0.65, 1);
@@ -1576,7 +1576,7 @@
             --nfd-wb-anim-transition-delay: 1500ms
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--container: 1200px;
             --wndb--container--wide: 1340px
         }
@@ -1731,7 +1731,7 @@
             mask: conic-gradient(from -45deg at bottom, #0000, #000 1deg 89deg, #0000 90deg) 50% /calc(var(--wndb--divider-size)*2) 100%!important
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--divider-size: 0px
         }
         
@@ -1739,7 +1739,7 @@
             grid-template-columns: 1fr 2fr 1fr!important
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--padding-factor: 1;
             --wndb--p: 2.375rem;
             --wndb--p--xs: 0.75rem;
@@ -1890,7 +1890,7 @@
             position: absolute!important
         }
         
-        :not(.is-root-container) .nfd-pseudo-play-icon>a {
+         :not(.is-root-container) .nfd-pseudo-play-icon>a {
             text-indent: -9999px!important
         }
         
@@ -1943,7 +1943,7 @@
             margin-block-start: 0!important
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--gap--scale-factor: 1;
             --wndb--gap--xs: 0.25rem;
             --wndb--gap--sm: 0.5rem;
@@ -2040,7 +2040,7 @@
             border-color: var(--wndb-color--borders-strong)!important
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--button--outline-width: 0px;
             --wndb--button-sm--font-size: 1rem;
             --wndb--button-lg-x: 2rem;
@@ -2176,7 +2176,7 @@
             --wndb--color--borders: var(--wndb--color--subtle)
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--shadow--xs: 0 1px 2px 0 rgba(18, 18, 23, .065);
             --wndb--shadow--sm: 0 1px 3px 0 rgba(18, 18, 23, .1), 0 1px 2px 0 rgba(18, 18, 23, .06)
         }
@@ -2194,7 +2194,7 @@
             --wndb--shadow--xs: none
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--rounded--scale-factor: 1;
             --wndb--border--radius--sm: 0.25rem;
             --wndb--border--radius--md: 0.5rem;
@@ -2250,7 +2250,7 @@
             --wndb--border--radius: 9999px
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb-gray: #6c6c89;
             --wndb-gray-50: #f7f7f8;
             --wndb-gray-100: #ebebef;
@@ -2524,7 +2524,7 @@
             opacity: .8!important
         }
         
-        :where(:root) {
+         :where(:root) {
             --wndb--slider-height: 100lvh
         }
         
@@ -2825,7 +2825,7 @@
             backdrop-filter: blur(8px)!important
         }
         
-        :not(.editor-styles-wrapper) header:has(.nfd-absolute-header) {
+         :not(.editor-styles-wrapper) header:has(.nfd-absolute-header) {
             position: sticky!important;
             top: 0!important;
             z-index: 1!important
@@ -2835,7 +2835,7 @@
             margin: 0!important
         }
         
-        :not(.editor-styles-wrapper) .nfd-absolute-header:not([style*=padding]):not([class*=nfd-px-]):not([style*=padding]) {
+         :not(.editor-styles-wrapper) .nfd-absolute-header:not([style*=padding]):not([class*=nfd-px-]):not([style*=padding]) {
             padding-inline: var(--wndb--p)!important
         }
         
@@ -2855,12 +2855,12 @@
             margin-top: 0!important
         }
         
-        :is([style*="min-height:100vh"]) {
+         :is([style*="min-height:100vh"]) {
             min-height: calc(100vh - var(--wp-admin--admin-bar--height))!important
         }
         
         @supports (height:100dvh) {
-            :is([style*="height:100vh"]) {
+             :is([style*="height:100vh"]) {
                 min-height: calc(100dvh - var(--wp-admin--admin-bar--height, 0px))!important
             }
         }
@@ -2871,7 +2871,7 @@
             padding: 8px 16px!important
         }
         
-        :where(.wp-block-search__input) {
+         :where(.wp-block-search__input) {
             border-radius: var(--wndb--border--radius--sm)!important
         }
         
@@ -7946,8 +7946,7 @@
                                     <div class="comment-respond-area">
                                         <div id="respond" class="comment-respond">
                                             <h3 id="reply-title" class="comment-reply-title">Leave A Reply <small><a rel="nofollow" id="cancel-comment-reply-link" href="index.html#respond" style="display:none;">Cancel reply</a></small></h3>
-                                            <form action="https://royalpalmcollege.com/wp-comments-post.php"
-                                                method="post" id="commentform" class="comment-form" novalidate>
+                                            <form action="https://royalpalmcollege.com/wp-comments-post.php" method="post" id="commentform" class="comment-form" novalidate>
                                                 <p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> <span class="required-field-message">Required fields are marked <span class="required">*</span></span>
                                                 </p>
                                                 <p class="comment-form-comment"><textarea placeholder="Comment *" id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea></p>
@@ -8116,7 +8115,7 @@
                                                                         </li>
                                                                         <li>
                                                                             <span>
-									<i aria-hidden="true" class="far fa-address-book"></i>								</span> Opposite Federal Training Centre, Kulende Estate, Ilorin, Kwara State.
+									<i aria-hidden="true" class="far fa-address-book"></i>								</span>23 Adeola Odeku Street, Victoria Island, Lagos, Nigeria
                                                                         </li>
                                                                         <li>
                                                                             <span>
@@ -8129,27 +8128,6 @@
                                                         <div class="elementor-element elementor-element-f3fcbeb elementor-widget elementor-widget-thim-ekits-social" data-id="f3fcbeb" data-element_type="widget" data-widget_type="thim-ekits-social.default">
                                                             <div class="elementor-widget-container">
                                                                 <div class="social-swapper">
-
-                                                                    <ul class="thim-social-media">
-                                                                        <li class="elementor-repeater-item-6b49797">
-                                                                            <a href="https://www.facebook.com/royalpalmrico/">
-                                                                                <i aria-hidden="true" class="tk tk-face"></i>
-
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="elementor-repeater-item-7e53ab4">
-                                                                            <a href="https://instagram.com/royalpalmintlcollege?igshid=YmMyMTA2M2Y=">
-                                                                                <i aria-hidden="true" class="tk tk-instagram"></i>
-
-                                                                            </a>
-                                                                        </li>
-                                                                        <li class="elementor-repeater-item-b5cd725">
-                                                                            <a href="https://twitter.com/ROYALPALMCOLEGE?t=GMwr3tLMFytPi-1Tp9soUg&amp;s=09">
-                                                                                <i aria-hidden="true" class="tk tk-twitter"></i>
-
-                                                                            </a>
-                                                                        </li>
-                                                                    </ul>
                                                                 </div>
                                                             </div>
                                                         </div>
